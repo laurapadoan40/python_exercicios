@@ -9,5 +9,5 @@ for i in range (num_produtos):
 
     print("Lista de cmpras: ")
     for produto, quantidade: in listas_compras
-         print ;(f"Produto: {produto} - Qtd: {quantidade}")
+    print ;(f"Produto: {produto} - Qtd: {quantidade}")
     
