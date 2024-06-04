@@ -1,3 +1,5 @@
+from tabulate import tabulate
+
 def cadastrar_notas(alunos):
     nome = input("Digite o nome do aluno: ")
     notas = []
