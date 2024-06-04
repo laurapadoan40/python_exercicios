@@ -9,13 +9,10 @@ def resultado(media):
         return "Reprovado"
     
 print("Calculadora de Média")
-
-aluno_notas = []
-aluno_notas.append(input("Digite o nome do aluno: "))
-
-for i in range(4)
-  nota = float(input(f"Digite a {i+1}ª nota: "))
-  
-m = calcularMedia(aluno_notas)
+n1 = float(input("Digite a 1º nota: "))
+n2 = float(input("Digite a 2º nota: "))
+n3 = float(input("Digite a 3º nota: "))
+n4 = float(input("Digite a 4º nota: "))
+m = calcularMedia(n1, n2,n3, n4)
 r = resultado(m)
-print(f"Sua média é {m}, e você foi {r}")
+print(f"Sua média é de {m}, e você foi {r}")
